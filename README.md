@@ -1,2 +1,2 @@
 # MJAJC
-## Mockingjsya Are Just Curious
+## Mockingjays Are Just Curious
