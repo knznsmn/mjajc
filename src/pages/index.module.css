@@ -4,10 +4,29 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  min-height: 100vh;
+  padding: 4rem;
   position: relative;
   overflow: hidden;
+  display: grid;
+  grid-template-areas:
+    'gauche droite';
+  justify-content: center;
+}
+
+.heroText {
+  grid-area: droite;
+  text-align: right;
+}
+.heroText h1 {
+  margin-bottom: 0;
+}
+.heroImage {
+  margin: 0 auto;
+  grid-area: gauche;
+}
+.buttons  a {
+  background: var(--hue-rose);
 }
 
 @media screen and (max-width: 996px) {
@@ -16,8 +35,17 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media (width < 660px) {
+  .heroBanner {
+    grid-template-areas:
+      'gauche'
+      'droite';
+  }
+  .heroText {
+    text-align: center;
+  }
+  .heroImage {
+    width: 90%;
+  }
 }
+

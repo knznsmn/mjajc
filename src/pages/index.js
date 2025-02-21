@@ -11,7 +11,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
+      <div className={styles.heroText}>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
@@ -20,9 +20,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            
+            How Do We Know What We Know?
           </Link>
         </div>
+      </div>
+      <div className={styles.heroImage}>
+        <img src="/img/android-chrome-512x512.png" alt="Mockingjay" />
       </div>
     </header>
   );
