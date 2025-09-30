@@ -1,0 +1,343 @@
+{
+  "site": {
+    "name": "MJAJC",
+    "tagline": "Crafting exceptional digital experiences",
+    "description": "Your trusted partner for innovative web solutions, combining passion and precision to deliver outstanding digital experiences.",
+    "contact": {
+      "email": "hello@mjajc.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Digital Street, Tech City, TC 12345"
+    },
+    "social": {
+      "twitter": "https://twitter.com/mjajc",
+      "linkedin": "https://linkedin.com/company/mjajc",
+      "github": "https://github.com/mjajc"
+    }
+  },
+  "navigation": {
+    "main": [
+      {
+        "id": "home",
+        "label": "Home",
+        "href": "/",
+        "description": "Welcome to our digital world"
+      },
+      {
+        "id": "about",
+        "label": "About",
+        "href": "/about",
+        "description": "Learn about our story and mission"
+      },
+      {
+        "id": "articles",
+        "label": "Articles",
+        "href": "/articles",
+        "description": "Articles about philosophy, logic, epistemology, and beliefs.",
+        "submenu": [
+          {
+            "id": "rationality",
+            "label": "Rationality",
+            "href": "/articles/rationality",
+            "description": "Beautiful, user-centered design solutions"
+          },
+          {
+            "id": "apologetics",
+            "label": "Apologetics",
+            "href": "/articles/apologetics",
+            "description": "Custom web applications and websites"
+          },
+          {
+            "id": "scriptures",
+            "label": "Scriptures",
+            "href": "/articles/scriptures",
+            "description": "Strategic digital transformation guidance"
+          },
+          {
+            "id": "theology",
+            "label": "Theology",
+            "href": "/articles/theology",
+            "description": "Ongoing maintenance and optimization"
+          }
+        ]
+      },
+      {
+        "id": "blog",
+        "label": "Blog",
+        "href": "/blog",
+        "description": "Insights, tutorials, and industry trends"
+      },
+      {
+        "id": "contact",
+        "label": "Contact",
+        "href": "/contact",
+        "description": "Get in touch with our team"
+      }
+    ],
+    "footer": {
+      "company": [
+        {
+          "id": "careers",
+          "label": "Careers",
+          "href": "/careers",
+          "description": "Join our growing team"
+        },
+        {
+          "id": "privacy",
+          "label": "Privacy Policy",
+          "href": "/privacy",
+          "description": "How we protect your data"
+        },
+        {
+          "id": "terms",
+          "label": "Terms of Service",
+          "href": "/terms",
+          "description": "Our terms and conditions"
+        },
+        {
+          "id": "cookies",
+          "label": "Cookie Policy",
+          "href": "/cookies",
+          "description": "How we use cookies"
+        }
+      ]
+    }
+  },
+  "articles": [
+    {
+      "id": "rationality",
+      "title": "The Thinking Man's Filter",
+      "slug": "rationality",
+      "excerpt": "Rationality is more than just logical reasoning, it is the disciplined pursuit of truth. It asks fundamental questions: How do we know what we know? What separates justified belief from mere opinion? By what standard can we say something is true?",
+      "content": "Rationality is the pursuit of clarity in thought — asking not only what we believe, but why we believe it. At its heart lies the fundamental question: how do we know what we know? This inquiry opens the door to epistemology, the study of knowledge, and to the age-old search for certainty in a world of competing claims.\nIn exploring rationality, we encounter the theories of truth: the correspondence view, where truth aligns with reality; the coherence view, where truth rests in consistency within a system of beliefs; the pragmatic view, where truth proves itself in practice; and others that wrestle with the tension between appearance and reality. By examining these theories, rationality challenges us to test our assumptions, weigh our reasoning, and refine our understanding of the world.\nTo be rational is not to dismiss faith, intuition, or tradition, but to hold every claim — whether scientific, philosophical, or theological — to the light of reason, evidence, and reflection. It is an ongoing dialogue between mind and reality, aimed not at final answers but at deeper wisdom.",
+      "author": {
+        "name": "Hrafnkell Han",
+        "avatar": "/img/authors/hrafnkell.jpg",
+        "bio": "A graphic designer and web developer."
+      },
+      "category": "Rationality",
+      "tags": ["epistemology", "reason", "logic", "reality"],
+      "publishedAt": "2025-09-15T10:00:00Z",
+      "updatedAt": "2025-09-15T10:00:00Z",
+      "readingTime": 12,
+      "featured": true,
+      "image": "/img/articles/rationality.jpg",
+      "seo": {
+        "title": "The Thinking Man's Filter",
+        "description": "Tackling the question of how we know what we know.",
+        "keywords": ["reasoning", "logic", "theories of truth", "science"]
+      }
+    },
+    {
+      "id": "apologetics",
+      "title": "The Hitchhiker's Guide to Apologetics",
+      "slug": "apologetics",
+      "excerpt": "Apologetics is the disciplined and rational defense of the Christian faith, engaging both theological reflection and philosophical reasoning. This field seeks not merely to answer objections, but to present a coherent, credible, and intellectually satisfying account of the truths of Christianity. By examining historical evidence, logical arguments, and biblical foundations, apologetics aims to clarify misconceptions, strengthen the faith of believers, and provide thoughtful responses to skeptics and seekers alike.",
+      "content": "Apologetics is the disciplined and rational defense of the Christian faith, engaging both theological reflection and philosophical reasoning. This field seeks not merely to answer objections, but to present a coherent, credible, and intellectually satisfying account of the truths of Christianity. By examining historical evidence, logical arguments, and biblical foundations, apologetics aims to clarify misconceptions, strengthen the faith of believers, and provide thoughtful responses to skeptics and seekers alike.s",
+      "author": {
+        "name": "Hrafnkell Han",
+        "avatar": "/img/authors/hrafnkell.jpg",
+        "bio": "UI/UX Designer and CSS enthusiast with a passion for creating pixel-perfect designs"
+      },
+      "category": "Apologetics",
+      "tags": ["fallacies", "", "arguments", "Frontend"],
+      "publishedAt": "2025-09-10T14:30:00Z",
+      "updatedAt": "2025-09-10T14:30:00Z",
+      "readingTime": 8,
+      "featured": false,
+      "image": "/img/articles/apologetics.jpg",
+      "seo": {
+        "title": "The Hitchhiker's Guide to Apologetics",
+        "description": "Examining the defense of religious ",
+        "keywords": ["modern CSS", "CSS Grid", "Flexbox", "web design techniques"]
+      }
+    },
+    {
+      "id": "scriptures",
+      "title": "Probing the Scriptures",
+      "slug": "scriptures",
+      "excerpt": "Learn essential techniques to optimize JavaScript performance and create faster, more efficient web applications.",
+      "content": "Performance is crucial for user experience and SEO. This guide covers proven strategies for optimizing JavaScript code, from memory management to bundling techniques.",
+      "author": {
+        "name": "Hrafnkell Han",
+        "avatar": "/img/authors/hrafnkell.jpg",
+        "bio": "Performance engineer specializing in JavaScript optimization and web vitals"
+      },
+      "category": "Scriptures",
+      "tags": ["bible", "quran"],
+      "publishedAt": "2025-09-05T09:15:00Z",
+      "updatedAt": "2025-09-05T09:15:00Z",
+      "readingTime": 15,
+      "featured": true,
+      "image": "/img/articles/scriptures.jpg",
+      "seo": {
+        "title": "JavaScript Performance Optimization Guide",
+        "description": "Master JavaScript performance with expert tips on code optimization, memory management, and loading strategies.",
+        "keywords": ["JavaScript performance", "code optimization", "web performance", "page speed"]
+      }
+    },
+	{
+      "id": "god",
+      "title": "The Naked God",
+      "slug": "god",
+      "excerpt": "Learn essential techniques to optimize JavaScript performance and create faster, more efficient web applications.",
+      "content": "Performance is crucial for user experience and SEO. This guide covers proven strategies for optimizing JavaScript code, from memory management to bundling techniques.",
+      "author": {
+        "name": "Hrafnkell Han",
+        "avatar": "/img/authors/hrafnkell.jpg",
+        "bio": "Performance engineer specializing in JavaScript optimization and web vitals"
+      },
+      "category": "Theology",
+      "tags": ["arguments"],
+      "publishedAt": "2025-09-05T09:15:00Z",
+      "updatedAt": "2025-09-05T09:15:00Z",
+      "readingTime": 15,
+      "featured": true,
+      "image": "/img/articles/theology.jpg",
+      "seo": {
+        "title": "JavaScript Performance Optimization Guide",
+        "description": "Master JavaScript performance with expert tips on code optimization, memory management, and loading strategies.",
+        "keywords": ["JavaScript performance", "code optimization", "web performance", "page speed"]
+      }
+    }
+  ],
+  "blogs": [
+    {
+      "id": "three-days-and-three-nights-sign",
+      "title": "The Three Days and Three Nights Sign",
+      "slug": "three-days-and-three-nights-sign",
+      "excerpt": "Good Friday and Easter Sunday doesn't add up. Jesus Christ gave the Pharisees only one sign. Did He failed?",
+      "content": "As we move through 2025, web design continues to evolve at a rapid pace. This year brings exciting new trends that focus on user experience, accessibility, and environmental consciousness.",
+      "author": {
+        "name": "Hrafnkell Han",
+        "avatar": "/img/authors/hrafnkell.jpg",
+        "bio": "Creative Director with 10+ years experience in digital design and UX strategy"
+      },
+      "category": "Scriptures",
+      "tags": ["Bible", "Jesus Christ", "Prophecies"],
+      "publishedAt": "2025-09-20T16:00:00Z",
+      "updatedAt": "2025-09-20T16:00:00Z",
+      "readingTime": 6,
+      "featured": true,
+      "image": "/img/blogs/three-days-sign.jpg",
+      "seo": {
+        "title": "The Three Days and Three Nights Sign",
+        "description": "Good Friday and Easter Sunday doesn't add up. Jesus Christ gave the Pharisees only one sign. Did He failed?",
+        "keywords": ["prophecies", "miracles", "holy bible"]
+      }
+    },
+    {
+      "id": "building-accessible-websites",
+      "title": "Qur'an Affirms the Christian Books",
+      "slug": "building-accessible-websites",
+      "excerpt": "Learn how to create inclusive web experiences that work for everyone, including users with disabilities.",
+      "content": "Web accessibility isn't just a nice-to-have feature—it's essential for creating inclusive digital experiences. This guide covers practical steps for making your websites accessible to all users.",
+      "author": {
+        "name": "David Park",
+        "avatar": "/images/authors/david-park.jpg",
+        "bio": "Accessibility advocate and senior developer focused on inclusive web development"
+      },
+      "category": "Epistemology",
+      "tags": ["Accessibility", "WCAG", "Inclusive Design", "Web Standards"],
+      "publishedAt": "2025-09-18T11:45:00Z",
+      "updatedAt": "2025-09-18T11:45:00Z",
+      "readingTime": 10,
+      "featured": false,
+      "image": "/images/blogs/web-accessibility.jpg",
+      "seo": {
+        "title": "Complete Guide to Web Accessibility",
+        "description": "Learn to build accessible websites with WCAG guidelines, screen reader compatibility, and inclusive design principles.",
+        "keywords": ["web accessibility", "WCAG compliance", "inclusive design", "accessible web development"]
+      }
+    },
+    {
+      "id": "future-of-web-development",
+      "title": "The Hidden Story of the Serpent",
+      "slug": "future-of-web-development",
+      "excerpt": "Explore emerging technologies and methodologies that will shape the future of web development.",
+      "content": "The web development landscape is constantly evolving. From WebAssembly to AI-powered development tools, let's explore what the future holds for web developers.",
+      "author": {
+        "name": "Lisa Wang",
+        "avatar": "/images/authors/lisa-wang.jpg",
+        "bio": "Tech futurist and full-stack developer passionate about emerging web technologies"
+      },
+      "category": "Scriptures",
+      "tags": ["Future Tech", "Web Development", "Innovation", "Emerging Technologies"],
+      "publishedAt": "2025-09-12T13:20:00Z",
+      "updatedAt": "2025-09-12T13:20:00Z",
+      "readingTime": 9,
+      "featured": true,
+      "image": "/images/blogs/future-web-dev.jpg",
+      "seo": {
+        "title": "Future of Web Development: Trends and Technologies",
+        "description": "Discover upcoming web development trends including WebAssembly, AI tools, and next-generation frameworks.",
+        "keywords": ["future web development", "emerging technologies", "web development trends", "next-gen frameworks"]
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "rationality",
+      "name": "Rationality",
+      "slug": "rationality",
+      "description": "Discusses the bases for knowledge, reasoning, and beliefs.",
+      "color": "var(--hue-primary)"
+    },
+    {
+      "id": "apologetics",
+      "name": "Apologetics",
+      "slug": "apologetics",
+      "description": "Examines the claims and arguments put forward by proponents.",
+      "color": "var(--hue-secondary)"
+    },
+    {
+      "id": "scriptures",
+      "name": "Scriptures",
+      "slug": "scriptures",
+      "description": "Explores the sacred scriptures, in the light of logic and reasoning.",
+      "color": "var(--hue-primary-dark)"
+    },
+    {
+      "id": "theology",
+      "name": "Theology",
+      "slug": "theology",
+      "description": "Examines the claims and arguments about \"God\" and what \"God\" is.",
+      "color": "var(--hue-primary-light)"
+    }
+  ],
+  "authors": [
+    {
+      "id": "hrafnkell",
+      "name": "Hrafnkell Han",
+      "slug": "sarah-johnson",
+      "bio": "Senior Frontend Developer with 8+ years of experience in React and Next.js. Passionate about creating performant and accessible web applications.",
+      "avatar": "/img/authors/hrafnkell.jpg",
+      "social": {
+        "twitter": "https://twitter.com/",
+        "linkedin": "https://linkedin.com/",
+        "github": "https://github.com/"
+      },
+      "expertise": ["React", "Next.js", "TypeScript", "Frontend Architecture"]
+    },
+    {
+      "id": "mjajc",
+      "name": "MJAJC",
+      "slug": "mjajc",
+      "bio": "UI/UX Designer and CSS enthusiast with a passion for creating pixel-perfect designs that enhance user experience.",
+      "avatar": "/images/authors/michael-chen.jpg",
+      "social": {
+        "twitter": "https://twitter.com/",
+        "linkedin": "https://linkedin.com/",
+        "dribbble": "https://dribbble.com/"
+      },
+      "expertise": ["UI/UX Design", "CSS", "Design Systems", "Prototyping"]
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-30T00:00:00Z",
+    "totalArticles": 3,
+    "totalBlogs": 3,
+    "totalCategories": 6,
+    "totalAuthors": 3
+  }
+}
