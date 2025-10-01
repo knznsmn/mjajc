@@ -14,7 +14,7 @@ export default function Footer() {
           <div className={styles.brand}>
             <Link href="/" className={styles.logo}>
               <Image
-                src="/logo.svg"
+                src="/logo.png"
                 alt="Logo"
                 width={40}
                 height={40}

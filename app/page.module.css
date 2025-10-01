@@ -9,8 +9,8 @@
 }
 .page section img {
   margin: 0 auto;
+  box-shadow: none;
 }
-
 @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();

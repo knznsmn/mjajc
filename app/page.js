@@ -8,7 +8,7 @@ export default function Home() {
         <section>
           <Image
           className={styles.logo}
-          src="/logo.svg"
+          src="/logo.png"
           alt="Mockingjays Are Just Curious' logo"
           width={180}
           height={38}
