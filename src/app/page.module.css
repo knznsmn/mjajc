@@ -1,0 +1,11 @@
+.main {
+  text-align: center;
+  cursor: default;
+}
+.main p {
+  width: 50%;
+  color: var(--hue-teal);
+  margin-top: 1rem;
+  font-size: small;
+  font-style: italic;
+}

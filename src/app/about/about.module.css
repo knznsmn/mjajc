@@ -1,0 +1,15 @@
+.page {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.page p {
+  max-width: 600px;
+}

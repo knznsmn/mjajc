@@ -1,0 +1,185 @@
+:root {
+  --hue-vert: #709e18;
+  --hue-brun: #947a3e;
+  --hue-skin: #f3bd99;
+  --hue-bleu: #6580bd;
+  --hue-teal: #0bb68c;
+  --hue-blan: #fdfbf7;
+  --hue-noir: #0d0d0d;
+
+  --background: var(--hue-blan);
+  --foreground: var(--hue-noir);
+  --heading-hue: var(--hue-vert);
+
+  --surface: rgba(255, 255, 255, 0.18);
+  --surface-border: rgba(255, 255, 255, 0.12);
+  --surface-border-soft: rgba(13, 13, 13, 0.08);
+  --surface-border-strong: rgba(255, 255, 255, 0.22);
+  --surface-strong: rgba(255, 255, 255, 0.26);
+  --surface-soft: rgba(255, 255, 255, 0.08);
+  --surface-hover: rgba(255, 255, 255, 0.22);
+  --surface-bright: rgba(255, 255, 255, 0.92);
+  --surface-shadow: 0 30px 90px rgba(0, 0, 0, 0.12);
+  --surface-shadow-soft: 0 18px 60px rgba(5, 5, 5, 0.12);
+  --overlay: rgba(12, 12, 16, 0.45);
+  --button-bg: rgba(255, 255, 255, 0.08);
+  --button-bg-hover: rgba(255, 255, 255, 0.14);
+  --button-ring: rgba(255, 255, 255, 0.08);
+  --button-ripple: radial-gradient(circle, rgba(255, 255, 255, 0.18) 0%, transparent 55%);
+  --text-muted: rgba(13, 13, 13, 0.78);
+  --text-muted-strong: rgba(13, 13, 13, 0.82);
+  --accent: var(--hue-teal);
+  --accent-soft: rgba(11, 182, 140, 0.06);
+
+  --glass-surface: var(--surface);
+  --glass-border: var(--surface-border);
+  --glass-shadow: var(--surface-shadow);
+  --glass-strong: var(--surface-strong);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--hue-noir);
+    --foreground: var(--hue-blan);
+    --surface: rgba(14, 16, 24, 0.72);
+    --surface-border: rgba(255, 255, 255, 0.08);
+    --surface-border-soft: rgba(255, 255, 255, 0.1);
+    --surface-border-strong: rgba(255, 255, 255, 0.1);
+    --surface-soft: rgba(255, 255, 255, 0.05);
+    --surface-hover: rgba(255, 255, 255, 0.1);
+    --surface-bright: rgba(22, 24, 30, 0.92);
+    --surface-shadow: 0 24px 90px rgba(0, 0, 0, 0.28);
+    --surface-shadow-soft: 0 18px 60px rgba(0, 0, 0, 0.28);
+    --overlay: rgba(10, 12, 18, 0.72);
+    --button-bg: rgba(255, 255, 255, 0.08);
+    --button-bg-hover: rgba(255, 255, 255, 0.14);
+    --button-ring: rgba(255, 255, 255, 0.08);
+    --button-ripple: radial-gradient(circle, rgba(255, 255, 255, 0.18) 0%, transparent 55%);
+    --text-muted: rgba(255, 255, 255, 0.78);
+    --text-muted-strong: rgba(255, 255, 255, 0.92);
+    --accent-soft: rgba(11, 182, 140, 0.12);
+
+    --glass-surface: var(--surface);
+    --glass-border: var(--surface-border);
+    --glass-shadow: var(--surface-shadow);
+    --glass-strong: var(--surface-strong);
+  }
+}
+
+html {
+  height: 100%;
+  scrollbar-gutter: stable;
+}
+
+html,
+body {
+  display: flex;
+  min-height: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  flex-direction: column;
+  color: var(--foreground);
+  background: var(--background);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-sourcepro), Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: pageFadeIn 260ms ease forwards;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  cursor: default;
+  font-family: var(--font-crimson), Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--heading-hue);
+}
+p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Classes */
+
+.gradient-shimmer {
+  --gradient: linear-gradient(
+    90deg,
+    var(--hue-teal),
+    var(--hue-vert),
+    var(--hue-teal),
+    var(--hue-vert),
+    var(--hue-teal)
+  );
+  background: var(--gradient);
+  background-size: 300% 100%;
+
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shimmer 14s linear infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* Animations */
+@keyframes shimmer {
+  from {
+    background-position: 200% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

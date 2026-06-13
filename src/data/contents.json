@@ -1,0 +1,29 @@
+{
+  "website": {
+    "title": "Mockingjays Are Just Curious",
+    "acronym": "MJAJC",
+    "description": "Finding answers to the great questions of life, the universe, and everything.",
+    "email": "mail@mjajc.com",
+    "url": "https://www.mjajc.com",
+    "logo": "/img/logo.png",
+    "author": {
+      "name": "Hrafnkell",
+      "email": "hello@mjajc.com",
+      "avatar": "/img/hrafnkell.png"
+    }
+  },
+  "navigation": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Articles",
+      "url": "/articles"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    }
+  ]
+}

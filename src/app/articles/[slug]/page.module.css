@@ -1,0 +1,92 @@
+.post {
+  padding: 4rem 1.5rem 6rem;
+  max-width: 860px;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 15px;
+  background: var(--surface);
+  border: 1px solid var(--surface-border-strong);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(var(--glass-blur));
+}
+
+.meta {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--hue-teal);
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(2.6rem, 4vw, 3.8rem);
+  line-height: 1.05;
+}
+
+.summary {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+.content {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.content :global(h1),
+.content :global(h2),
+.content :global(h3) {
+  margin: 2rem 0 1rem;
+  line-height: 1.2;
+}
+
+.content :global(p) {
+  margin: 0;
+  line-height: 1.9;
+  color: var(--text-muted-strong);
+}
+
+.content :global(a) {
+  color: var(--hue-teal);
+  text-decoration: underline;
+}
+
+.content :global(ul),
+.content :global(ol) {
+  padding-left: 1.35rem;
+  margin: 0;
+}
+
+.content :global(li) {
+  margin-bottom: 0.75rem;
+}
+
+.content :global(blockquote) {
+  margin: 0;
+  padding: 1.2rem 1.25rem;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--text-muted-strong);
+}
+
+@media (max-width: 640px) {
+  .post {
+    padding-top: 3rem;
+  }
+
+  .header {
+    padding: 1.75rem;
+  }
+}
